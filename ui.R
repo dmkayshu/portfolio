@@ -1,7 +1,7 @@
 #ui.R
 library(plotly)
 
-shinyUI(navbarPage( "Plan dashboard",theme="bootstrap4.css",
+shinyUI(navbarPage( "Plan dashboard",theme="bootstrap1.css",
                     tabPanel("Portfolio extract" ,
                              sidebarLayout(position="right",
                                            sidebarPanel(
